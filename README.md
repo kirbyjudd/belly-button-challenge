@@ -17,7 +17,7 @@ For the Bubble Charts I similarly created a function called 'bubbleChart' to dis
 ![Bubble Charts](https://github.com/kirbyjudd/belly-button-challenge/blob/main/Images/bubble_chart.png?raw=true)
 
 ## Metadata and Deployment
-For the Demographic Info metadata i created a function called 'demoInfo' and retrieved the metadata from the samples.json data. the identifier (id) was converted to a string and I appended the text key values for each identifier.
+For the Demographic Info metadata I created a function called 'demoInfo' and retrieved the metadata from the samples.json data. the identifier (id) was converted to a string and I appended the text key values for each identifier.
 
 ![Demographic Info](https://github.com/kirbyjudd/belly-button-challenge/blob/main/Images/hw03.png?raw=true)
 
