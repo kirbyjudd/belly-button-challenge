@@ -18,6 +18,7 @@ For the Bubble Charts I similarly created a function called 'bubbleChart' to dis
 
 ## Metadata and Deployment
 For the Demographic Info metadata i created a function called 'demoInfo' and retrieved the metadata from the samples.json data. the identifier (id) was converted to a string and I appended the text key values for each identifier.
+
 ![Demographic Info](https://github.com/kirbyjudd/belly-button-challenge/blob/main/Images/hw03.png?raw=true)
 
 Lastly I initialized the default dashboard with an 'init' function which displays the bar chart, bubble chart, and demographic info.  When a new id is selected from the dropdown menu the 'optionChanged' function updates the new charts with the selection id samples information.
