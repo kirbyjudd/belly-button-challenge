@@ -25,3 +25,5 @@ Lastly I initialized the default dashboard with an 'init' function which display
 
 ### File locations
 The app.js file is located in the "static" folder which is within the "Starter Code" folder.
+
+I finally deployed my app to GitHub Pages at: 
