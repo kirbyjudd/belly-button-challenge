@@ -25,8 +25,7 @@ For the Demographic Info metadata I created a function called 'demoInfo' and ret
 
 Lastly I initialized the default dashboard with an 'init' function which displays the bar chart, bubble chart, and demographic info.  When a new id is selected from the dropdown menu the 'optionChanged' function updates the new charts with the selection id samples information.
 
-I finally deployed my app to GitHub Pages at: 
-
+I finally deployed my app to GitHub Pages at: https://kirbyjudd.github.io/belly-button-challenge/
 
 ### File locations
 The app.js file is located in the "static" folder and index.html is in the main root folder.
