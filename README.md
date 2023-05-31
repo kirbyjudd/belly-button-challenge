@@ -9,11 +9,13 @@ The dataset reveals that a small handful of microbial species (also called opera
 ## Bar Chart
 I first used  the D3 library to read in the samples.json from the URL (https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json).
 
-For the Horizontal Bar Chart I created a function called 'barChart' to create a bar chart the displayed the top 10 OTUs found in each idividual using the sample_values as the x values, otu_ids as the labels, and otu_labels as the hovertext (tooltips). Below is a bar chart id sample: 
+For the Horizontal Bar Chart I created a function called 'barChart' to create a bar chart the displayed the top 10 OTUs found in each idividual using the sample_values as the x values, otu_ids as the labels, and otu_labels as the hovertext (tooltips). Below is a bar chart id sample:
+
 ![Bar Chart](https://github.com/kirbyjudd/belly-button-challenge/blob/main/Images/hw01.png?raw=true)
 
 ## Bubble Charts
 For the Bubble Charts I similarly created a function called 'bubbleChart' to display each select id sample using the otu_ids as the x values and marker colors, sample_values as the y values and marker size, and otu_labels for the text values. I used the colorscale "Earth" to match the instruction example colors. Below is a bubble chart id sample:
+
 ![Bubble Charts](https://github.com/kirbyjudd/belly-button-challenge/blob/main/Images/bubble_chart.png?raw=true)
 
 ## Metadata and Deployment
@@ -23,7 +25,8 @@ For the Demographic Info metadata I created a function called 'demoInfo' and ret
 
 Lastly I initialized the default dashboard with an 'init' function which displays the bar chart, bubble chart, and demographic info.  When a new id is selected from the dropdown menu the 'optionChanged' function updates the new charts with the selection id samples information.
 
-### File locations
-The app.js file is located in the "static" folder which is within the "Starter Code" folder.
-
 I finally deployed my app to GitHub Pages at: 
+
+
+### File locations
+The app.js file is located in the "static" folder and index.html is in the main root folder.
